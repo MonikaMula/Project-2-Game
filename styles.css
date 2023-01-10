@@ -51,3 +51,23 @@ label {
     font-size: 21px;
     cursor: grabbing;
 }
+
+label:last-child {
+    padding-right: 0;
+}
+
+button {
+    display: block;
+    margin: 30px auto 0;
+    padding 10px 20px;
+    text-transform: uppercase;
+    background-color: plum;
+    border: 2px solid purple;
+    border-radius: 5px;
+    transition: backgroud-color 3s;
+    cursor: grab;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
