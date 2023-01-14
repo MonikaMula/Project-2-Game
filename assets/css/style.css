@@ -90,7 +90,7 @@ button:hover {
 
 .close-modal {
     position: absolute;
-    top: o;
+    top: 0;
     right: 30px;
 }
 
