@@ -93,3 +93,11 @@ button:hover {
     top: o;
     right: 30px;
 }
+
+.correct {
+    color: chartreuse;
+}
+
+.incorrect {
+    color: crimson;
+}
