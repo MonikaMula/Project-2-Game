@@ -71,3 +71,25 @@ button {
 button:hover {
     background-color: antiquewhite;
 }
+
+.modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    font-size: 24px;
+    background-color: plum;
+    border: 2px solid purple;
+}
+.modal-active {
+    display: flex;
+}
+
+.close-modal {
+    position: absolute;
+    top: o;
+    right: 30px;
+}
