@@ -7,5 +7,9 @@ const modalBtn = modal.querySelector('.close-modal')
 
 const handleQuiz = e => {
     e.preventDefault();
+
+    const checkedAnswers = answers.filter(answer => {
+        console.log(answer);
+        answer.checked})
 }
 
