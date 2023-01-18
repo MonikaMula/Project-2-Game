@@ -16,6 +16,7 @@ const handleQuiz = e => {
     if(!allChecked) {
         modal.classList.add('modal-active')
         modalInfo.textContent = 'Please Select All Answers'
+        return
     }
 
     checkedAnswers.forEach(answer => {
@@ -29,8 +30,15 @@ const handleQuiz = e => {
             answerBox.classList.add('incorrect')
             answerBox.classList.remove('correct')
         }
-
     })
+
+    if(isTrue && allChecked) {
+        modal.classList.add('modal-active')
+        modalInfo.textContent = 'Congratulations!!👍 All Answers Are Correct!!🥳'
+    } else {
+        modal.classList.add('modal-active')
+        modalInfo.textContent = 'Sorry,👎 You Loose 😝'
+    }
 }
 
 const closeModal = () => {
