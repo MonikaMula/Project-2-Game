@@ -7,14 +7,13 @@ const modalBtn = modal.querySelector('.close-modal')
 
     
 const handleQuiz = e => {
-        e.preventDefault();
+    e.preventDefault();
 
     const checkedAnswers = answers.filter(answer => answer.checked)
     const isTrue = checkedAnswers.every(answer => answer.value === 'true')
-
     const allChecked = checkedAnswers.length === allQuestions.length
 
-    if (!allChecked) {
+    if(!allChecked) {
         modal.classList.add('modal-active')
         modalInfo.textContent = 'Please Select All Answers'
     }
