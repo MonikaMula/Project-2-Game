@@ -37,7 +37,7 @@ const handleQuiz = e => {
         modalInfo.textContent = 'Congratulations!!👍 All Answers Are Correct!!🥳'
     } else {
         modal.classList.add('modal-active')
-        modalInfo.textContent = 'Sorry,👎 You Loose 😝'
+        modalInfo.textContent = 'Sorry,👎 You Loose 😬'
     }
 }
 
