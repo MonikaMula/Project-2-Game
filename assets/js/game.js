@@ -16,7 +16,7 @@ const handleQuiz = e => {
     if(!allChecked) {
         modal.classList.add('modal-active')
         modalInfo.textContent = 'Please Select All Answers'
-        return
+    
     }
 
     checkedAnswers.forEach(answer => {
