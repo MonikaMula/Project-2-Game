@@ -3,6 +3,7 @@ const answers = Array.from(document.querySelectorAll('.answer'))
 const allQuestions = Array.from(document.getElementsByClassName('question'))
 
 let score = 0
+
 // answers check //
 const handleQuiz = (e) => {
     const checkedAnswers = answers.filter(answer => answer.checked)
@@ -11,15 +12,11 @@ const handleQuiz = (e) => {
     const allChecked = checkedAnswers.length === allQuestions.length
 
     e.preventDefault();
-
     
-    
-    
-
+// return statement //
     if(!allChecked) {
-        modal.classList.add('modal-active')
-        modalInfo.textContent = 'Please Select All Answers'
-    
+    incompleteQuiz()
+    return
     }
 
     checkedAnswers.forEach(answer => {
