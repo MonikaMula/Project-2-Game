@@ -1,17 +1,20 @@
 const form =  document.querySelector('.quiz-box')
 const answers = Array.from(document.querySelectorAll('.answer'))
-const allQuestions = document.querySelectorAll('question')
-const modal = document.querySelector('.modal')
-const modalInfo = modal.querySelector('p')
-const modalBtn = modal.querySelector('.close-modal')
+const allQuestions = Array.from(document.getElementsByClassName('question'))
 
-    
-const handleQuiz = e => {
-    e.preventDefault();
-
+let score = 0
+// answers check //
+const handleQuiz = (e) => {
     const checkedAnswers = answers.filter(answer => answer.checked)
     const isTrue = checkedAnswers.every(answer => answer.value === 'true')
+    const correctCount = checkedAnswers.filter(answer => answer.value === 'true').length
     const allChecked = checkedAnswers.length === allQuestions.length
+
+    e.preventDefault();
+
+    
+    
+    
 
     if(!allChecked) {
         modal.classList.add('modal-active')
