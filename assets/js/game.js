@@ -19,9 +19,50 @@ const handleQuiz = (e) => {
     return
     }
 
-    checkedAnswers.forEach(answer => {
+    setAnswerStyle(checkedAnswers)
+    
+    if (isTrue && allChecked) {
+        winQuiz();
+    } else {
+        loseQuiz(correctCount);
+    }
+}
+
+const incompleteQuiz = () => {
+    Swal.fire ({
+        position: 'center',
+        icon: 'info',
+        title: 'You didn\'t answer all the questions',
+        showConfirmButton: false,
+        timer: 3000
+    })
+}
+
+const winQuiz = () => {
+    Swal.fire ({
+        position: 'center',
+        icon: 'success',
+        title: 'You win! Congratulations!',
+        showConfirmButton: false,
+        timer: 3000
+    })
+}
+
+const loseQuiz = (count) => {
+    Swal.fire ({
+        position: 'center',
+        icon: 'error',
+        title: 'Sorry, You lose! You got '+ count +' correct answers',
+        showConfirmButton: false,
+        timer: 3000
+    })
+}
+
+const setAnswerStyle = (answers) => {
+    answers.forEach(answer => {
         const checkIfcorrect = answer.value === 'true'
-        const answerBox = answer.closest('.answer-box')
+        const answerBox = answer.closest('answer-box')
+        console.log(answerBox);
 
         if (checkIfcorrect) {
             answerBox.classList.add('correct')
@@ -31,21 +72,6 @@ const handleQuiz = (e) => {
             answerBox.classList.remove('correct')
         }
     })
-
-    if(isTrue && allChecked) {
-        modal.classList.add('modal-active')
-        modalInfo.textContent = 'Congratulations!!👍 All Answers Are Correct!!🥳'
-    } else {
-        modal.classList.add('modal-active')
-        modalInfo.textContent = 'Sorry,👎 You Loose 😬'
-    }
 }
 
-const closeModal = () => {
-    modal.classList.remove('modal-active')
-}
-
-
-
-modalBtn.addEventListener('click', closeModal)
 form.addEventListener('submit', handleQuiz)
