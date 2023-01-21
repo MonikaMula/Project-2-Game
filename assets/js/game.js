@@ -1,70 +1,28 @@
-const form =  document.querySelector('.quiz-box')
+const form = document.querySelector('.quiz-box')
 const answers = Array.from(document.querySelectorAll('.answer'))
-const allQuestions = Array.from(document.getElementsByClassName('question'))
+const allQuestions = document.querySelectorAll('.question')
+const modal = document.querySelector('.modal')
+const modalInfo = modal.querySelector('p')
+const modalBtn = modal.querySelector('.close-modal')
 
-let score = 0
+const handleQuiz = e => {
+    e.preventDefault();
 
-// answers check //
-const handleQuiz = (e) => {
     const checkedAnswers = answers.filter(answer => answer.checked)
     const isTrue = checkedAnswers.every(answer => answer.value === 'true')
-    const correctCount = checkedAnswers.filter(answer => answer.value === 'true').length
     const allChecked = checkedAnswers.length === allQuestions.length
 
-    e.preventDefault();
-    
-// return statement //
-    if(!allChecked) {
-    incompleteQuiz()
-    return
+    if (!allChecked) {
+        modal.classList.add('modal-active')
+        modalInfo.textContent = 'Please Select All Answers!'
+        return
     }
 
-    setAnswerStyle(checkedAnswers)
-    
-    if (isTrue && allChecked) {
-        winQuiz();
-    } else {
-        loseQuiz(correctCount);
-    }
-}
+    checkedAnswers.forEach(answer => {
+        const checkIfCorrect = answer.value === 'true'
+        const answerBox = answer.closest('.answer-box')
 
-const incompleteQuiz = () => {
-    Swal.fire ({
-        position: 'center',
-        icon: 'info',
-        title: 'You didn\'t answer all the questions',
-        showConfirmButton: false,
-        timer: 3000
-    })
-}
-
-const winQuiz = () => {
-    Swal.fire ({
-        position: 'center',
-        icon: 'success',
-        title: 'You win! Congratulations!',
-        showConfirmButton: false,
-        timer: 3000
-    })
-}
-
-const loseQuiz = (count) => {
-    Swal.fire ({
-        position: 'center',
-        icon: 'error',
-        title: 'Sorry, You lose! You got '+ count +' correct answers',
-        showConfirmButton: false,
-        timer: 3000
-    })
-}
-
-const setAnswerStyle = (answers) => {
-    answers.forEach(answer => {
-        const checkIfcorrect = answer.value === 'true'
-        const answerBox = answer.closest('answer-box')
-        console.log(answerBox);
-
-        if (checkIfcorrect) {
+        if (checkIfCorrect) {
             answerBox.classList.add('correct')
             answerBox.classList.remove('incorrect')
         } else {
@@ -72,6 +30,20 @@ const setAnswerStyle = (answers) => {
             answerBox.classList.remove('correct')
         }
     })
+
+    if (isTrue && allChecked) {
+        modal.classList.add('modal-active')
+        modalInfo.textContent = 'Congratulations!!👍 All Answers Are Correct🥳'
+    } else {
+        modal.classList.add('modal-active')
+        modalInfo.textContent = 'Sorry,👎 You Loose 😬'
+    }
+
 }
 
+const closeModal = () => {
+    modal.classList.remove('modal-active')
+}
+
+modalBtn.addEventListener('click', closeModal)
 form.addEventListener('submit', handleQuiz)
