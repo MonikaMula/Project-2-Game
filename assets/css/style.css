@@ -10,7 +10,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 150vh;
-    background-color:black;
+    background-image: url('../inazuma-eleven-ina11.gif');
 }
 
 .quiz-box {
