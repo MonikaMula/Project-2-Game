@@ -10,7 +10,11 @@ body {
     align-items: center;
     flex-direction: column;
     height: 150vh;
-    background-image: url('../inazuma-eleven-ina11.gif');
+    background-image: url('../water-wave.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: aqua;
 }
 
 .quiz-box {
