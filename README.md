@@ -1,2 +1,1 @@
-Welcome to Surfing Quize Game!! 🏄‍♀️🏄‍♂️
-![am-i-responsive] 
+<h1>Welcome to Surfing Quize Game!! 🏄‍♀️🏄‍♂️</h1>
