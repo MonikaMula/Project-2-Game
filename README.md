@@ -6,7 +6,7 @@ This is a fun Quiz for anyone who wishes to learn a bit about basic surfing know
 ## Features
 ### The Game Area
 - This section will allow to pick answers by 'grab' button
-![image](images\grab.png)
+![image](./images/grab.png)
 
 ### The Score Area
 * Wrong Answer
