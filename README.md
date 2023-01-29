@@ -19,9 +19,12 @@ This is a fun Quiz for anyone who wishes to learn a bit about basic surfing know
 
 ![image](../Project-2-Game/images/win.png)
 
+* Start new game by refresh Button 
+![image](../Project-2-Game/images/refresh.png)
+
+
 ### Features Left to Implement
 - I forgot place 'Try Again' option
-
 
 ## Testing 
 [Am I Responsive](https://ui.dev/amiresponsive)
@@ -70,10 +73,7 @@ You can break the credits section up into Content and Media, depending on what y
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- The images used for the gallery page were taken from th
 
 ## Other General Project Advice
 
