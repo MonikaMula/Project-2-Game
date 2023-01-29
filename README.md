@@ -2,56 +2,35 @@
 
 This is a fun Quiz for anyone who wishes to learn a bit about basic surfing knowledge or test their own.
 
-![image](../Project-2-Game/images/am-i-responsive.png)
+![image](../Project-2-Game/images/surf-quiz.png)
 
-## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## Features
+### The Game Area
+- This section will allow to pick answers by 'grab' button
+![image](../Project-2-Game/images/grab.png)
 
-### Existing Features
+### The Score Area
+* Wrong Answer
 
-- __The Love Maths Logo and Heading__
+![image](../Project-2-Game/images/wrong-answer.png)
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+* Correct Answer
 
-![Logo](media/love_maths_logo.png)
-
-- __The Game Area__
-
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
-
-![Game](media/love_maths_icons.png)
-
-- __The Question section__
-
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
-
-![Question](media/love_maths_question.png)
-
-- __The Score Area__
-
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
-
-![score](media/love_maths_answer.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![image](../Project-2-Game/images/win.png)
 
 ### Features Left to Implement
+- I forgot place 'Try Again' option
 
-- Another feature idea
 
 ## Testing 
 [Am I Responsive](https://ui.dev/amiresponsive)
 ![image](../Project-2-Game/images/am-i-responsive.png)
 
 ### Validator Testing 
-
 - HTML
     - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmonikamula.github.io%2FProject-2-Game%2F)
+    ![image](../Project-2-Game/images/w3c%20html%20test.png)
 
 - CSS
     - [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmonikamula.github.io%2FProject-2-Game%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -61,29 +40,23 @@ In addition, you may also use this section to discuss plans for additional featu
     ![image](../Project-2-Game/images/JSHintTesting.png)
 
 ### Unfixed Bugs
-
 I do have good bit to fix in JS also have forgotten add Backgroud color (CSS).
-This quiz still does need more work on it... but it's was a joy to do it and even do I have mistakes in it sometimes this is way we do learn.
+This quiz still does need more work on it... but it's was a joy to do it and even do I have mistakes in it sometimes this is way we do learn I know I would hav done few things other way.
 
-### Languages Used
+
+## Languages Used
 * HTML
 * CSS
 * JavaScript
 
+
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-maths/
+I have used Visual Studio Code (https://code.visualstudio.com/)to create my project.
+- The site was deployed to GitHub pages
+My live link to GitHub https://monikamula.github.io/Project-2-Game/
 
 
 ## Credits 
-
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
