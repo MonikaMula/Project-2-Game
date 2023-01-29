@@ -15,7 +15,7 @@ This is a fun Quiz for anyone who wishes to learn a bit about basic surfing know
 
 * Correct Answer
 
-![image]()
+![image](./images/win.png)
 
 * Start new game by refresh Button 
 ![image](./images/refresh.png)
