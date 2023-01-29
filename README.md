@@ -26,7 +26,7 @@ This is a fun Quiz for anyone who wishes to learn a bit about basic surfing know
 
 ## Testing 
 [Am I Responsive](https://ui.dev/amiresponsive)
-![image](../Project-2-Game/images/am-i-responsive.png)
+![image](./images/am-i-responsive.png)
 
 ### Validator Testing 
 - HTML
