@@ -38,7 +38,7 @@ This is a fun Quiz for anyone who wishes to learn a bit about basic surfing know
     ![image](./images/w3c%20css%20test.png)
 - JavaScript
     - [Jshint validator](https://jshint.com/)
-    ![image](../Project-2-Game/images/JSHintTesting.png)
+    ![image](./images/JSHintTesting.png)
 
 ### Unfixed Bugs
 I do have good bit to fix in JS also have forgotten add Backgroud color (CSS).
