@@ -54,40 +54,23 @@ This quiz still does need more work on it... but it's was a joy to do it and eve
 
 
 ## Deployment
-I have used Visual Studio Code (https://code.visualstudio.com/)to create my project.
+- I have used Visual [Studio Code](https://code.visualstudio.com/) to create my project.
 - The site was deployed to GitHub pages
-My live link to GitHub https://monikamula.github.io/Project-2-Game/
+My live link to [GitHub](https://monikamula.github.io/Project-2-Game/)
 
 
-## Credits 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+## Credits
+- README.md Template used from Code-Institute [Code Institute](https://github.com/Code-Institute-Solutions/readme-love-maths/blob/master/README.md)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from th
+- [GIF](https://tenor.com/en-GB/search/surfing-gifs) back of the Quiz-Game is gif that I have used from 
+- I have use [Favicon](https://favicon.io/favicon-generator/?t=%F0%9F%92%AF&bc=%23FFF&fc=%23FFF&b=square)
 
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+## Acknowledgements 
+### I have used:
+- [W3](https://www.w3schools.com/)
+- [Mmdn](https://developer.mozilla.org/en-US/)
+- [stackoverflow](https://stackoverflow.com/)
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [YouTube](https://www.youtube.com/) Tutorials
