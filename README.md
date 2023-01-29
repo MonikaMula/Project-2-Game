@@ -31,7 +31,7 @@ This is a fun Quiz for anyone who wishes to learn a bit about basic surfing know
 ### Validator Testing 
 - HTML
     - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmonikamula.github.io%2FProject-2-Game%2F)
-    ![image](../Project-2-Game/images/w3c%20html%20test.png)
+    ![image](./images/w3c%20html%20test.png)
 
 - CSS
     - [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmonikamula.github.io%2FProject-2-Game%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
