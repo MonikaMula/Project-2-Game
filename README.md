@@ -2,13 +2,13 @@
 
 This is a fun Quiz for anyone who wishes to learn a bit about basic surfing knowledge or test their own.
 
-![image]()
+![image](images\am-i-responsive.png)
 
 
 ## Features
 ### The Game Area
 - This section will allow to pick answers by 'grab' button
-![image](../Project-2-Game/images/grab.png)
+![image](images\grab.png)
 
 ### The Score Area
 * Wrong Answer
@@ -17,7 +17,7 @@ This is a fun Quiz for anyone who wishes to learn a bit about basic surfing know
 
 * Correct Answer
 
-![image](../Project-2-Game/images/win.png)
+![image]()
 
 * Start new game by refresh Button 
 ![image](../Project-2-Game/images/refresh.png)
