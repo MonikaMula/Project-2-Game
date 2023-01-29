@@ -2,7 +2,7 @@
 
 This is a fun Quiz for anyone who wishes to learn a bit about basic surfing knowledge or test their own.
 
-![image](../Project-2-Game/images/surf-quiz.png)
+![images](../Project-2-Game/images/surf-quiz.png)
 
 
 ## Features
