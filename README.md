@@ -18,7 +18,7 @@ This is a fun Quiz for anyone who wishes to learn a bit about basic surfing know
 ![image]()
 
 * Start new game by refresh Button 
-![image](../Project-2-Game/images/refresh.png)
+![image](./images/refresh.png)
 
 
 ### Features Left to Implement
