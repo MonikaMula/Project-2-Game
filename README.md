@@ -1,9 +1,7 @@
 # Surfing Quiz
 
 This is a fun Quiz for anyone who wishes to learn a bit about basic surfing knowledge or test their own.
-
-![image](images\am-i-responsive.png)
-
+![image](./images/surf-quiz.png)
 
 ## Features
 ### The Game Area
