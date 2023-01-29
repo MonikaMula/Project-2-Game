@@ -2,7 +2,7 @@
 
 This is a fun Quiz for anyone who wishes to learn a bit about basic surfing knowledge or test their own.
 
-![Responsice Mockup](../Project-2-Game/images/am-i-responsive.png)
+![image](../Project-2-Game/images/am-i-responsive.png)
 
 ## Features 
 
@@ -45,15 +45,8 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+[Am I Responsive](https://ui.dev/amiresponsive)
+![image](../Project-2-Game/images/am-i-responsive.png)
 
 ### Validator Testing 
 
